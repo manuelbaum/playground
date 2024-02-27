@@ -1,10 +1,17 @@
 import matplotlib.pyplot as plt
 import torch
 
+
 class HarmonicPDF():
     def __init__(self, n_levels, n_bases):
+        '''
+
+        :param n_levels:
+        :param n_bases:
+        '''
         self.n_levels = n_levels
         self.n_bases = n_bases
+
 
 
     def activation(self, samples):
